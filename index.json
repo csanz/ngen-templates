@@ -1,0 +1,12 @@
+{ "templates" :
+    [
+        {"default":
+            [
+                {"simple" : {
+                              "info" : "A one-day financial management app written with Express",
+                              "credits : "https://github.com/visionmedia"
+                            }
+            ]
+        }
+    ]
+}
