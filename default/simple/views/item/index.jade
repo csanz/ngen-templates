@@ -1,0 +1,8 @@
+tr
+  td.entity= item.entity
+  td.amount= item.amount
+  td.comment= item.comment
+  td.category= item.category
+  td.tags= item.tags.join(', ')
+  td.date= date('mm/dd/yy', item.date)
+  td.delete: a(href='/month/' + month + '/items/' + item.id) Remove
